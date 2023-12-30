@@ -1,0 +1,24 @@
+.cards {
+    gap: 30px;
+    padding-top: 120px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-color: black;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #c2d0d0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    text-align: center;
+    color: white;
+    width: 400px;
+}
